@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact et devis gratuit à Étampes | Au Cœur de l’Arbre</title>
+<meta name="description" content="Contactez Au Cœur de l’Arbre à Étampes (91) : appelez le 06 63 20 49 22 ou préparez votre demande de devis gratuit en ligne.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Figtree:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="https://webaunet.github.io/au-coeur-de-l-arbre/" aria-label="Au Cœur de l’Arbre, accueil">
+      <img src="images/logo.png" width="52" height="55" alt="Logo Au Cœur de l’Arbre, arboriste grimpeur">
+      <span><b>Au Cœur de l’Arbre</b><small>Arboristes grimpeurs · Étampes</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="arboriculture.html">Arboriculture</a>
+      <a href="paysage.html">Travaux paysagers</a>
+      <a href="entreprise.html">L’entreprise</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="call" href="tel:+33663204922" aria-label="Appeler le 06 63 20 49 22">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      <span>06 63 20 49 22</span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="sec s-cream" style="padding-top:clamp(2.5rem,6vw,4rem);min-height:min(92svh,900px)" aria-labelledby="h1">
+  <div class="wrap">
+    <div class="head"><span class="eyebrow">Contact · Étampes (91)</span><h1 id="h1">Parlons de votre projet</h1><p>Décrivez votre besoin en quelques lignes. Vous obtenez un message prêt à envoyer par SMS à l’équipe, ou vous pouvez appeler directement.</p></div>
+    <div class="cgrid">
+      <form class="form" id="devis" novalidate aria-label="Demande de devis">
+        <div class="field"><label for="f-nom">Votre nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" required aria-describedby="e-nom"><span class="msg" id="e-nom" role="alert"></span></div>
+        <div class="field"><label for="f-tel">Votre téléphone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="e-tel"><span class="msg" id="e-tel" role="alert"></span></div>
+        <div class="field"><label for="f-commune">Votre commune</label><input id="f-commune" name="commune" type="text" autocomplete="address-level2" required aria-describedby="e-commune"><span class="msg" id="e-commune" role="alert"></span></div>
+        <div class="field"><label for="f-besoin">Votre besoin</label>
+          <select id="f-besoin" name="besoin" required aria-describedby="e-besoin">
+            <option value="">Choisir dans la liste</option><option>Élagage</option><option>Abattage</option><option>Dessouchage</option><option>Haubanage ou travaux spéciaux</option><option>Chenilles processionnaires ou frelons</option><option>Terrasse ou clôture</option><option>Pelouse, gazon ou débroussaillage</option><option>Création ou entretien d’espaces verts</option><option>Autre demande</option>
+          </select><span class="msg" id="e-besoin" role="alert"></span></div>
+        <div class="field"><label for="f-msg">Votre message <small>(facultatif)</small></label><textarea id="f-msg" name="message" rows="4"></textarea></div>
+        <button class="btn btn-rope" type="submit">Préparer ma demande</button>
+        <div class="recap" id="recap" tabindex="-1" hidden>
+          <h3>Votre demande est prête</h3>
+          <pre></pre>
+          <div class="actions"><a class="btn btn-green sms" href="sms:+33663204922">Envoyer par SMS</a><button class="btn btn-line copy" type="button" style="color:var(--forest)">Copier le message</button><a class="btn btn-rope" href="tel:+33663204922">Appeler</a></div>
+        </div>
+      </form>
+      <aside>
+        <div class="info"><h3>Appeler l’équipe</h3><p>Mobile</p><a href="tel:+33663204922">06 63 20 49 22</a><p style="margin-top:.6rem">Fixe</p><a href="tel:+33187222211">01 87 22 22 11</a></div>
+        <div class="info" style="background:var(--leaf)"><h3>Où nous trouver</h3><p>Étampes, Essonne (91). L’équipe se déplace chez vous pour étudier votre projet.</p></div>
+        <div class="info" style="background:var(--bark)"><h3>Devis gratuit</h3><p>Arbres, jardins, espaces verts : décrivez votre besoin, vous recevez des conseils clairs.</p></div>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <p>© Au Cœur de l’Arbre · Étampes (91) · Photos d’illustration · Maquette</p>
+    <nav aria-label="Pied de page">
+      <a href="arboriculture.html">Arboriculture</a>
+      <a href="paysage.html">Travaux paysagers</a>
+      <a href="entreprise.html">L’entreprise</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
