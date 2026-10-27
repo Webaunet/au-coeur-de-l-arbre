@@ -36,6 +36,7 @@ a{color:inherit}
 .call{display:inline-flex;align-items:center;gap:.5rem;min-height:48px;padding:0 1.1rem;border-radius:999px;background:var(--rope);color:#1a1208;font-weight:800;text-decoration:none;box-shadow:0 8px 18px -10px var(--rope-d);white-space:nowrap}
 .call:hover{background:#ee8b30}
 .call svg{width:20px;height:20px;flex:none}
+.call{flex:none}.brand{min-width:0}
 .burger{display:none;width:48px;height:48px;border:2px solid var(--forest);border-radius:50%;background:transparent;color:var(--forest);cursor:pointer;align-items:center;justify-content:center;flex:none}
 .burger span,.burger span::before,.burger span::after{display:block;width:20px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:transform .2s,background .2s}
 .burger span::before,.burger span::after{content:"";position:absolute;left:0}
@@ -157,6 +158,8 @@ a{color:inherit}
 @media (max-width:640px){
   .brand small{display:none}
   .brand img{width:44px}
+  .brand b{font-size:1.05rem}
+  .hdr .wrap{gap:.6rem}
   .call span{display:none}
   .call{width:48px;padding:0;justify-content:center}
   .grid4{grid-template-columns:1fr;gap:1rem}
